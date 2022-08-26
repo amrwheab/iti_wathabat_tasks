@@ -1,0 +1,20 @@
+.nav {
+  box-shadow: 3px 1px 7px #0000005c;
+}
+.nav mat-toolbar {
+  min-height: 30px;
+  height: 55px;
+}
+.nav-contain {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-contain .active {
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.title {
+  color: white;
+  text-decoration: none;
+}
+

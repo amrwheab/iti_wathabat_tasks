@@ -1,0 +1,132 @@
+{
+  "users": [
+    {
+      "name": "Shaeleigh Burns",
+      "email": "ravigewo@mailinator.com",
+      "phone": "+1 (772) 536-5339",
+      "address": "Est id quis excepteu",
+      "gender": "female",
+      "id": 2
+    },
+    {
+      "name": "Shoshana Barr",
+      "email": "sanudap@mailinator.com",
+      "phone": "+1 (334) 626-2512",
+      "address": "Tempora qui exercita",
+      "gender": "male",
+      "id": 3
+    },
+    {
+      "name": "Buckminster Burton",
+      "email": "xoqykawise@mailinator.com",
+      "phone": "+1 (579) 188-9837",
+      "address": "Pariatur Nemo dolor",
+      "gender": "female",
+      "id": 4
+    },
+    {
+      "name": "Ciaran Peck",
+      "email": "hygary@mailinator.com",
+      "phone": "+1 (874) 978-6788",
+      "address": "Dolore sint deserunt",
+      "gender": "female",
+      "id": 5
+    },
+    {
+      "name": "Peter Burton",
+      "email": "rivupuzagy@mailinator.com",
+      "phone": "+1 (527) 926-2149",
+      "address": "Blanditiis beatae ea",
+      "gender": "female",
+      "id": 6
+    },
+    {
+      "name": "Kyra Floyd",
+      "email": "bodoh@mailinator.com",
+      "phone": "+1 (882) 551-7744",
+      "address": "Sed optio similique",
+      "gender": "male",
+      "id": 7
+    },
+    {
+      "name": "Meredith Odom",
+      "email": "nirysy@mailinator.com",
+      "phone": "+1 (102) 989-1042",
+      "address": "Ipsa commodo molest",
+      "gender": "male",
+      "id": 8
+    },
+    {
+      "name": "Maite Simmons",
+      "email": "taguqifuny@mailinator.com",
+      "phone": "+1 (967) 391-8139",
+      "address": "Voluptate sed distin",
+      "gender": "male",
+      "id": 9
+    },
+    {
+      "name": "Miranda Mcmillan",
+      "email": "supa@mailinator.com",
+      "phone": "+1 (392) 984-5369",
+      "address": "Occaecat id tempora ",
+      "gender": "female",
+      "id": 12
+    },
+    {
+      "name": "Rigel Rasmussen",
+      "email": "rizufakihi@mailinator.com",
+      "phone": "+1 (705) 753-2577",
+      "address": "Sunt eos in aut pr",
+      "gender": "male",
+      "id": 13
+    },
+    {
+      "name": "Charissa Roman",
+      "email": "johuryxib@mailinator.com",
+      "phone": "+1 (766) 113-8618",
+      "address": "Fugiat dolorem qui ",
+      "gender": "female",
+      "id": 14
+    },
+    {
+      "name": "Philip Larsen",
+      "email": "bixyru@mailinator.com",
+      "phone": "+1 (643) 457-5231",
+      "address": "Et voluptas non eius",
+      "gender": "male",
+      "id": 15
+    },
+    {
+      "name": "Sophia Harris",
+      "email": "dilawyniny@mailinator.com",
+      "phone": "+1 (865) 962-9296",
+      "address": "Voluptates assumenda",
+      "gender": "female",
+      "id": 16
+    },
+    {
+      "name": "Montana Wise",
+      "email": "jusyqanopo@mailinator.com",
+      "phone": "+1 (457) 122-6319",
+      "address": "Proident enim adipi",
+      "gender": "male",
+      "id": 17
+    },
+    {
+      "name": "Kuame Ellison",
+      "email": "leqiwyke@mailinator.com",
+      "phone": "+1 (245) 421-9824",
+      "address": "Exercitation et lore",
+      "gender": "male",
+      "id": 18
+    },
+    {
+      "name": "Cora Underwood",
+      "email": "zusyfyz@mailinator.com",
+      "phone": "+1 (248) 617-2851",
+      "address": "Dolor sit quis quas ",
+      "gender": "female",
+      "id": 19
+    }
+  ]
+}

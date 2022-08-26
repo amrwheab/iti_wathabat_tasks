@@ -1,0 +1,55 @@
+<div class="loading" *ngIf="loading">
+  <mat-spinner [diameter]="50" [strokeWidth]="4"></mat-spinner>
+</div>
+
+<div class="adduser">
+  <div class="container">
+    <h2>{{edit ? 'Edit' : 'Add'}} User</h2>
+    <div class="row">
+      <div class="col-lg-6">
+        <form [formGroup]="userForm">
+          <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>name</mat-label>
+            <input type="text" matInput formControlName="name" [errorStateMatcher]="matcher">
+            <mat-error *ngIf="userForm.controls.name.invalid && userForm.controls.name.touched">
+              name is required
+            </mat-error>
+          </mat-form-field>
+          <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>email</mat-label>
+            <input type="email" matInput formControlName="email" placeholder="Ex. pat@example.com"
+              [errorStateMatcher]="matcher">
+            <mat-error *ngIf="userForm.controls.email.invalid && userForm.controls.email.touched">
+              Please enter a valid email address
+            </mat-error>
+          </mat-form-field>
+          <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>phone</mat-label>
+            <input type="text" matInput formControlName="phone" [errorStateMatcher]="matcher">
+            <mat-error *ngIf="userForm.controls.phone.invalid && userForm.controls.phone.touched">
+              phone is required
+            </mat-error>
+          </mat-form-field>
+          <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>address</mat-label>
+            <input type="text" matInput formControlName="address" [errorStateMatcher]="matcher">
+            <mat-error *ngIf="userForm.controls.address.invalid && userForm.controls.address.touched">
+              address is required
+            </mat-error>
+          </mat-form-field>
+          <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>gender</mat-label>
+            <mat-select matNativeControl  formControlName="gender">
+              <mat-option value="male">male</mat-option>
+              <mat-option value="female">female</mat-option>
+            </mat-select>
+            <mat-error *ngIf="userForm.controls.gender.invalid && userForm.controls.gender.touched">
+              gender is required
+            </mat-error>
+          </mat-form-field>
+          <button mat-raised-button color="primary" (click)="onSubmit()" type="submit" [disabled]="userForm.invalid">Save</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

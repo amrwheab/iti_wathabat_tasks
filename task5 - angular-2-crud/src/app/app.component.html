@@ -1,0 +1,21 @@
+<p class="nav">
+  <mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <div class="container">
+        <div class="nav-contain">
+          <a class="title" routerLink="/">
+            <h2>
+              <span>CRUD</span>
+              <span class="example-spacer"></span>
+            </h2>
+          </a>
+          <div class="btn-contain">
+            <a mat-button routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
+            <a mat-button routerLink="/adduser" routerLinkActive="active">Add User</a>
+          </div>
+        </div>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</p>
+<router-outlet></router-outlet>

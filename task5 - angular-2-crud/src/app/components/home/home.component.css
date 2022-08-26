@@ -1,0 +1,3 @@
+::ng-deep table.mat-table {
+  border-spacing: 25px !important;
+}
