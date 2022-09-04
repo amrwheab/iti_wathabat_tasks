@@ -1,0 +1,27 @@
+<p-table [value]="messages" [lazy]="true" responsiveLayout="scroll" dataKey="id"
+    [paginator]="true" [rows]="5" [totalRecords]="total" [loading]="loading"
+    [(first)]="first"
+    (onPage)="changePage($event)"
+    >
+    <ng-template pTemplate="header">
+        <tr>
+            <th style="width: 3rem"></th>
+            <th pSortableColumn="msg.title">Title</th>
+            <th pSortableColumn="msg.content">Content</th>
+            <th pSortableColumn="time">Time</th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-msg>
+        <tr>
+            <td>
+                <i *ngIf="!likedMessages.includes(msg.id)" class="pi pi-heart like-icon" (click)="like(true, msg.id)"></i>
+                <i *ngIf="likedMessages.includes(msg.id)" class="pi pi-heart-fill like-icon" (click)="like(false, msg.id)"></i>
+                <i *ngIf="!bookMarkMsgs.includes(msg.id)" class="pi pi-bookmark bookmark-icon" (click)="bookmark(true, msg.id)"></i>
+                <i *ngIf="bookMarkMsgs.includes(msg.id)" class="pi pi-bookmark-fill bookmark-icon" (click)="bookmark(false, msg.id)"></i>
+            </td>
+            <td>{{msg.title}}</td>
+            <td>{{msg.contenet}}</td>
+            <td>{{gDate() | date: 'hh:mm'}}</td>
+        </tr>
+    </ng-template>
+</p-table>

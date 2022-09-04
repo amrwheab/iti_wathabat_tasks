@@ -1,0 +1,9 @@
+.contain {
+  transition: .2s linear;
+}
+.modal-open {
+  margin-left: 330px;
+}
+.main {
+  margin-top: 20px;
+}

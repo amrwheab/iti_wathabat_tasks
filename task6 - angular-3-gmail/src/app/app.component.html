@@ -1,0 +1,21 @@
+<p-sidebar [(visible)]="sideShow" styleClass="p-sidebar-sm" [modal]="false" appendTo="body">
+  <p-tree [value]="sideContenet"></p-tree>
+</p-sidebar>
+
+<div class="contain" [class.modal-open]="sideShow">
+  <p-toolbar>
+    <div class="p-toolbar-group-left">
+      <p-button icon="pi pi-bars" (onClick)="sideShow=!sideShow"></p-button>
+    </div>
+  </p-toolbar>
+  <p-tabMenu [model]="tabs" [activeItem]="activeTab">
+    <ng-template pTemplate="item" let-item let-i="index">
+      <div [routerLink]="'/' + item.label.toLowerCase()"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{exact: true}">{{item.label}}</div>
+    </ng-template>
+  </p-tabMenu>
+  <div class="main">
+    <router-outlet></router-outlet>
+  </div>
+</div>
